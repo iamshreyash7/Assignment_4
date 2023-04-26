@@ -1,0 +1,235 @@
+
+      
+      
+
+      
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Arial, sans-serif;
+        border:6px solid black;
+        /* max-width:max-content; */
+      }
+      label {
+        display: flex-box;
+
+        margin-bottom: 10px;
+      }
+      .deli{
+        display: flex;
+        
+      }
+      input[type="text"], input[type="number"] {
+        padding: 5px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      input[type="radio"] {
+        margin-right: 5px;
+      }
+      button[type="submit"] {
+        background-color: #0e143a;
+        color: rgb(255, 249, 249);
+        padding: 10px 20px;
+        
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 13px;
+        margin-top: 20px;
+      }
+      button[type="submit"]:hover {
+        background-color: #45a049;
+      }
+      
+      input:required {
+        border-color: rgb(17, 16, 16);
+      }
+      input:valid {
+        border-color: #ccc;
+      }
+    
+
+
+
+      @media query and (min-width:1024px) {
+        
+      
+      
+
+      
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Arial, sans-serif;
+      }
+      label {
+        display: flex-box;
+
+        margin-bottom: 10px;
+      }
+      .deli{
+        display: flex;
+        
+      }
+      input[type="text"], input[type="number"] {
+        padding: 5px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      input[type="radio"] {
+        margin-right: 5px;
+      }
+      button[type="submit"] {
+        background-color: #0e143a;
+        color: rgb(255, 249, 249);
+        padding: 10px 20px;
+        
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 13px;
+        margin-top: 20px;
+      }
+      button[type="submit"]:hover {
+        background-color: #45a049;
+      }
+      
+      input:required {
+        border-color: rgb(17, 16, 16);
+      }
+      input:valid {
+        border-color: #ccc;
+      }
+    
+     
+        
+    
+        
+      }
+
+
+
+
+      @media query and(min-width:768px) and (max-width:1023px){
+        
+      
+      
+
+      
+      form {
+        display: flex;
+        max-width: max-content;
+        max-height: max-content;
+        flex-direction: column;
+        align-items: center;
+        border:5px solid black;
+        font-family: Arial, sans-serif;
+      }
+      label {
+        display: flex-box;
+
+        margin-bottom: 10px;
+      }
+      .deli{
+        display: flex;
+        
+      }
+      input[type="text"], input[type="number"] {
+        width: 100%;
+        padding: 5px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      input[type="radio"] {
+        margin-right: 5px;
+      }
+      button[type="submit"] {
+        width: 100%;
+        background-color: #0e143a;
+        color: rgb(255, 249, 249);
+        padding: 10px 20px;
+        
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 13px;
+        margin-top: 20px;
+      }
+      button[type="submit"]:hover {
+        background-color: #45a049;
+      }
+      
+      input:required {
+        border-color: rgb(17, 16, 16);
+      }
+      input:valid {
+        border-color: #ccc;
+      }        
+      }
+     
+      @media query and(max-width:767px){
+        
+      
+      
+
+      
+        form {
+          display: flex;
+          max-width: min-content;
+          max-height: min-content;
+          width:100%;
+          flex-direction: column;
+          align-items: center;
+          border:5px solid black;
+          font-family: Arial, sans-serif;
+
+        }
+        label {
+          display: flex-box;
+  
+          margin-bottom: 10px;
+        }
+        .deli{
+          display: flex;
+          
+        }
+        input[type="text"], input[type="number"] {
+          width: 100%;
+          padding: 5px;
+          border-radius: 3px;
+          border: 1px solid #ccc;
+          width: 100%;
+          box-sizing: border-box;
+        }
+        input[type="radio"] {
+          margin-right: 5px;
+        }
+        button[type="submit"] {
+          width: 100%;
+          background-color: #0e143a;
+          color: rgb(255, 249, 249);
+          padding: 10px 20px;
+          
+          border-radius: 4px;
+          cursor: pointer;
+          font-size: 13px;
+          margin-top: 20px;
+        }
+        button[type="submit"]:hover {
+          background-color: #45a049;
+        }
+        
+        input:required {
+          border-color: rgb(17, 16, 16);
+        }
+        input:valid {
+          border-color: #ccc;
+        }        
+        }
+    
